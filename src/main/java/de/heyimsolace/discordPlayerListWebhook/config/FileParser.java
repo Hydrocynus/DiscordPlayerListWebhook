@@ -52,7 +52,7 @@ public class FileParser {
             confDir.mkdir();
         }
 
-        //if the file doesnt Exist, create the default file defined in the createDefaultFile() method.
+        //if the file doesnt Exist, create the default file
         File file = new File(getConfigFileName());
         if (!file.exists()){
             createDefaultFile(file);
